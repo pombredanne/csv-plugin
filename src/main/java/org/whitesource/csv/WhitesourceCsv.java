@@ -185,7 +185,7 @@ public class WhitesourceCsv {
         if (updatedProjects.isEmpty()) {
             log(Level.INFO, "No projects were updated");
         } else {
-            log(Level.INFO, updatedProjects.size() + " existing projects were updated:");
+            log(Level.INFO, updatedProjects.size() + " existing project(s) were updated:");
             for (String projectName : updatedProjects) {
                 log(Level.INFO, projectName);
             }
